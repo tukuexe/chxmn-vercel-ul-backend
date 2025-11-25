@@ -1,6 +1,7 @@
-import { nanoid } from 'nanoid';
-import jwt from 'jsonwebtoken';
-import router from './_router.js';
+const { nanoid } = require('nanoid');
+const jwt = require('jsonwebtoken');
+const router = require('./_router');
+// rest of file stays identical
 import { hash, compare } from './_crypto.js';
 import { save, load } from './_files.js';
 import { get } from './_cache.js';
