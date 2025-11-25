@@ -1,8 +1,7 @@
 {
   "functions": {
     "api/index.js": {
-      "maxDuration": 10,
-      "runtime": "edge"
+      "maxDuration": 10
     }
   },
   "crons": [
